@@ -1,4 +1,4 @@
-# SLRPapers
+# SLR Papers
 papers on sign language recognition and related fields
 
 ## Table of Content
@@ -63,8 +63,11 @@ papers on sign language recognition and related fields
 4. **Using Convolutional 3D Neural Networks for User-independent continuous gesture recognition** `ICPR2016` [*paper*](http://personal.ee.surrey.ac.uk/Personal/S.Hadfield/papers/camgoz2016icprw.pdf) *code*
 5. **Hand Gesture Recognition with 3D Convolutional Neural Networks** `CVPRW2015` [*paper*](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2015/W15/papers/Molchanov_Hand_Gesture_Recognition_2015_CVPR_paper.pdf) *code*
 6. **Sign Language Recognition using 3D convolutional neural networks** `ICME2015` [*paper*](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7177428) *code*
+7. **Dynamic Pseudo Label Decoding for Continuous Sign Language Recognition** `ICME2019` [*paper*](https://ieeexplore.ieee.org/document/8784863) 
+8. **Iterative Alignment Network for Continuous Sign Language Recognition** `CVPR2019` [*paper*](https://openaccess.thecvf.com/content_CVPR_2019/papers/Pu_Iterative_Alignment_Network_for_Continuous_Sign_Language_Recognition_CVPR_2019_paper.pdf)
 
-
+**3D Hands, Face and Body Extraction
+for Sign Language Recognition** `ECCV2020`[*paper*](https://slrtp.com/papers/extended_abstracts/SLRTP.EA.15.022.paper.pdf)
 
 ### GCN
 
