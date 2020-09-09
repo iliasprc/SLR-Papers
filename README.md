@@ -123,6 +123,7 @@ for Sign Language Recognition** `ECCV2020`[*paper*](https://slrtp.com/papers/ext
 | [**PSL ToF**](http://vision.kia.prz.edu.pl/dynamictof.php)   | Polish      | 84      | 1,680   | Videos&Depth from ToF camera | isolated       |
 | [**BUHMAP-DB**](https://www.cmpe.boun.edu.tr/pilab/pilabfiles/databases/buhmap/) | Turkish     | 8       | 440     | Videos                       | isolated       |
 | [**LSE-Sign**](http://lse-sign.bcbl.eu/web-busqueda/)        | Spanish     | 2,400   | 2,400   | Videos                       | isolated       |
+| [**MS-ASL**](https://www.microsoft.com/en-us/research/publication/ms-asl-a-large-scale-data-set-and-benchmark-for-understanding-american-sign-language/)        | American    | 1000   | 25,513   | Videos                       | isolated       |
 | [**Purdue RVL-SLLL**](https://engineering.purdue.edu/RVL/Database/ASL/asl-database-front.htm) | American    | 39      | 546     | Videos                       | isolated       |
 | [**RWTH-BOSTON-50**](http://www-i6.informatik.rwth-aachen.de/aslr/database-rwth-boston-50.php) | American    | 50      | 483     | Videos(multiple angles)      | isolated       |
 | [**RWTH-BOSTON-104**](http://www-i6.informatik.rwth-aachen.de/aslr/database-rwth-boston-104.php) | American    | 104     | 201     | Videos(multiple angles)      | continuous     |
