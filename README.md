@@ -9,6 +9,7 @@ papers on sign language recognition and related fields
   - [3D CNN](#3d-cnn)
   - [GCN](#gcn)
   - [Others](#others)
+  - [Multi-modal](#modal)
 
 - **[Datasets](#datasets)**
 - **[Related Fields](#related-fields)**
@@ -74,6 +75,7 @@ for Sign Language Recognition** `ECCV2020`[*paper*](https://slrtp.com/papers/ext
 1. **Spatial-Temporal Graph Convolutional Networks for Sign Language Recognition** `ICANN2019` [*paper*](https://arxiv.org/pdf/1901.11164.pdf) [*code*](https://github.com/amorim-cleison/st-gcn-sl)
 
 
+### Multi-modal <a name="modal"></a>
 
 ### Others
 
