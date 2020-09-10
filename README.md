@@ -163,3 +163,635 @@ for Sign Language Recognition** `ECCV2020`[*paper*](https://slrtp.com/papers/ext
 | [**WLASL**](https://dxli94.github.io/WLASL/)                 | American    | 2,000   | 21,083  | Videos                       | isolated       |
 
 ### SLR Benchmarks
+
+
+
+<table class="tg">
+
+<thead>
+
+<tr>
+
+<th class="tg-0pky">Method</th>
+
+<th class="tg-0pky"></th>
+
+<th class="tg-0pky">Non-Manual</th>
+
+<th class="tg-0pky">Manual features</th>
+
+<th class="tg-0pky">Full-frame</th>
+
+<th class="tg-0pky">Hands</th>
+
+<th class="tg-0pky">Motion</th>
+
+<th class="tg-0pky">Validation</th>
+
+<th class="tg-0pky">Test</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td class="tg-0pky">CSLR</td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky">55.0</td>
+
+<td class="tg-0pky">53.0</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0pky">Align Hamnosys</td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky">49.6</td>
+
+<td class="tg-0pky">48.2</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0pky">1 Million Hands</td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky">47.1</td>
+
+<td class="tg-0pky">45.1</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">SubUNets</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">40.8</td>
+
+<td class="tg-0lax">40.7</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Deep Sign</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">38.3</td>
+
+<td class="tg-0lax">38.8</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0pky">Staged Optimization</td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky"></td>
+
+<td class="tg-0pky">39.4</td>
+
+<td class="tg-0pky">38.7</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Without Segmentation</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">-</td>
+
+<td class="tg-0lax">38.3</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Parallel Temp. Encoder</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">38.1</td>
+
+<td class="tg-0lax">38.3</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Reinforcement Learning</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">38.0</td>
+
+<td class="tg-0lax">38.3</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Temporal Fusion</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">37.9</td>
+
+<td class="tg-0lax">37.8</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Cnn-temp-rnn</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">37.9</td>
+
+<td class="tg-0lax">37.6</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Dilated Convolutions</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">38.0</td>
+
+<td class="tg-0lax">37.3</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Align-iOpt</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">37.1</td>
+
+<td class="tg-0lax">36.7</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Dense Temporal Conv</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">35.9</td>
+
+<td class="tg-0lax">36.5</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">SF-Net</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">35.6</td>
+
+<td class="tg-0lax">34.9</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">DPD</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">35.6</td>
+
+<td class="tg-0lax">34.5</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Hybrid CNN-HMM</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">31.6</td>
+
+<td class="tg-0lax">32.5</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Fully-Inception Networks</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">31.7</td>
+
+<td class="tg-0lax">31.3</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">GoogLeNet+TConvs</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">28.9</td>
+
+<td class="tg-0lax">29.1</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Phonological Subunits</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">-</td>
+
+<td class="tg-0lax">28.1</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">27.1</td>
+
+<td class="tg-0lax">26.8</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">26.0</td>
+
+<td class="tg-0lax">26.0</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Fully Conv Networks</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">24.6</td>
+
+<td class="tg-0lax">24.6</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Cnn-Temp-Rnn</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">23.8</td>
+
+<td class="tg-0lax">24.4</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Cnn-Temp-Rnn</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">23.1</td>
+
+<td class="tg-0lax">22.9</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">Cross-Modal Alignment</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">23.9</td>
+
+<td class="tg-0lax">24.0</td>
+
+</tr>
+
+<tr>
+
+<td class="tg-0lax">ST Multi-Cue Network</td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax"></td>
+
+<td class="tg-0lax">21.1</td>
+
+<td class="tg-0lax">20.7</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+
