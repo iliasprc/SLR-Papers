@@ -14,10 +14,8 @@ on sign language recognition-translation and related fields
   - [Surveys](#surveys)
 
 - **[Datasets](#datasets)**
-- **[Related Fields](#related-fields)**
-  - [Action Recognition](#action-recognition)
-  - [Speech Recognition](#speech-recognition)
-  - [Video Captioning](#video-captioning)
+- **[SLR Benchmarks](#slrbenchmarks)**
+
 
 ## Papers
 
