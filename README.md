@@ -1,5 +1,5 @@
 # SLR Papers
-on sign language recognition-translation and related fields
+A large collection of papers on sign language recognition-translation and SLR datasets.
 
 ## Table of Content
 
@@ -147,7 +147,7 @@ for Sign Language Recognition** `ECCV2020`[*paper*](https://slrtp.com/papers/ext
 ### SLR Benchmarks
 
 
-Evaluation on Phoenix 2014 dataset
+#### Evaluation on Phoenix 2014 dataset
 
 | Method                                                                                                                                                                                                                          |   | Non-Manual | Manual features | Skeleton | Full-frame | Hands-frame | Motion-Opt.Flow | Validation | Test |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|:----------:|:---------------:|----------|:----------:|:-----------:|:---------------:|------------|------|
