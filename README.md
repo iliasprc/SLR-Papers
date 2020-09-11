@@ -41,6 +41,7 @@ on sign language recognition-translation and related fields
 ### 2D-CNN
 1. **A Comprehensive Study on Sign Language Recognition Methods** `Arxiv2020` [*paper*](https://arxiv.org/abs/2007.12530) *code*
 1. **A Deep Neural Framework for Continuous Sign Language Recognition by Iterative Training** `IEEE-TMM2019` [*paper*](https://ieeexplore.ieee.org/abstract/document/8598757) [*code*] 
+1. **Fingerspelling recognition in the wild with iterative visual attention** `ICCV2019` [*paper*](https://arxiv.org/pdf/1908.10546.pdf) *code*
 1. **Recurrent Convolutional Neural Networks for Continuous Sign Language Recognition by Staged Optimization** `CVPR2017` [*paper*](http://openaccess.thecvf.com/content_cvpr_2017/papers/Cui_Recurrent_Convolutional_Neural_CVPR_2017_paper.pdf) *code*
 1. **SubUNets: End-to-End Hand Shape and Continuous Sign Language Recognition** `ICCV2017` [*paper*](http://openaccess.thecvf.com/content_ICCV_2017/papers/Camgoz_SubUNets_End-To-End_Hand_ICCV_2017_paper.pdf) [*code*](https://github.com/neccam/SubUNets)
 
@@ -62,25 +63,6 @@ on sign language recognition-translation and related fields
 1. **Iterative Alignment Network for Continuous Sign Language Recognition** `CVPR2019` [*paper*](https://openaccess.thecvf.com/content_CVPR_2019/papers/Pu_Iterative_Alignment_Network_for_Continuous_Sign_Language_Recognition_CVPR_2019_paper.pdf)
 1. **Learning Spatiotemporal Features Using 3DCNN and Convolutional LSTM for Gesture Recognition** `ICCV2017` [*paper*](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w44/Zhang_Learning_Spatiotemporal_Features_ICCV_2017_paper.pdf) [*code*](https://github.com/GuangmingZhu/Conv3D_BICLSTM)
 
-
-
-**3D Hands, Face and Body Extraction
-for Sign Language Recognition** `ECCV2020`[*paper*](https://slrtp.com/papers/extended_abstracts/SLRTP.EA.15.022.paper.pdf)
-
-
-
-### CNN+RNN <a name="cnnrnn"></a>
-
-*CNN includes 2D CNN and 3D CNN, and RNN includes LSTM and BLSTM.*
-
-
-
-1. **Fingerspelling recognition in the wild with iterative visual attention** `ICCV2019` [*paper*](https://arxiv.org/pdf/1908.10546.pdf) *code*
-
-
-
-
-
 1. **Online Detection and Classification of Dynamic Hand Gestures with Recurrent 3D Convolutional Neural Networks** `CVPR2016` [*paper*](https://research.nvidia.com/sites/default/files/pubs/2016-06_Online-Detection-and/NVIDIA_R3DCNN_cvpr2016.pdf) *code*
 
 
@@ -88,9 +70,11 @@ for Sign Language Recognition** `ECCV2020`[*paper*](https://slrtp.com/papers/ext
 
 
 
+### Skeleton-Pose based SLR
 
-### Skeleton-based SLR
 
+1. **3D Hands, Face and Body Extraction
+for Sign Language Recognition** `ECCV2020`[*paper*](https://slrtp.com/papers/extended_abstracts/SLRTP.EA.15.022.paper.pdf)
 1. **Spatial-Temporal Graph Convolutional Networks for Sign Language Recognition** `ICANN2019` [*paper*](https://arxiv.org/pdf/1901.11164.pdf) [*code*](https://github.com/amorim-cleison/st-gcn-sl)
 1. **SIGN LANGUAGE RECOGNITION WITH LONG SHORT-TERM MEMORY** `ICIP2016` [*paper*](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7532884) *code*
 1. **Sign Language Recognition and Translation with Kinect** `AFGR2013` [*paper*](https://pdfs.semanticscholar.org/0450/ecef50fd1f532fe115c5d32c7c3ebed6fd80.pdf?_ga=2.205538387.1969091582.1582720499-418088591.1578543327) *code*
